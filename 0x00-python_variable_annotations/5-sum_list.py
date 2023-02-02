@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-annotating complex types
+annotating complex types and return sum
 """
 
 
