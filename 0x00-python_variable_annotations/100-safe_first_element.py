@@ -2,10 +2,10 @@
 """
 augmenting duck type annotations using various types
 """
-from typing import Any, Union
+from typing import Any, Union, Sequence
 
 
-def safe_first_element(lst: Any) -> Union[Any]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any]:
     """
     returns an list of any type as given
     """
